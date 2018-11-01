@@ -383,7 +383,7 @@ message.channel.sendFile(canvas.toBuffer())
 
 client.on('message',message =>{
     var prefix = "+";
-    if(message.content.startsWith(prefix + 'top')) {
+    if(message.content.startsWith(prefix + 'topinv')) {
   message.guild.fetchInvites().then(i =>{
   var invites = [];
    
